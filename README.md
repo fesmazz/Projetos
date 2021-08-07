@@ -20,6 +20,6 @@ Projeto de Ciência de Dados desenvolvido como trabalho final de um curso de esp
 ## Fundamentos da Programação
 
 <a name="poker"></a>
-### Calculando a probabilidade de vitória entre duas mãos no Texas Hold'em Poker        
+### 1 - Calculando a probabilidade de vitória entre duas mãos no Texas Hold'em Poker        
 <br>
 Projeto final do curso de especialização "Introductory C Programming" oferecido pela Duke University na plataforma Coursera. Trata-se de um programa desenvolvido em C que, dadas duas mãos (com cartas conhecidas, desconhecidas, ou um misto), calcula a probabilidade de vitória de cada uma, considerando as regras do _Texas Hold'em Poker_. O programa lê um arquivo .txt que contém informações sobre as mãos a serem analisadas, roda um número de simulações especificado pelo usuário (padrão = 10.000) e retorna o número de vitórias, derrotas e empates de cada uma. 
