@@ -8,7 +8,8 @@ retorna o número de vitórias, derrotas e empates de cada uma.
 ## Uso
 Compile o programa a partir do makefile fornecido (por padrão, será buscado o GCC). O programa, "Poker", aceita dois argumentos:
 * __input.txt__: Um arquivo txt que contém as mãos que o usuário deseja comparar. Devem ser inseridas da seguinte maneira:          
-  \[Número ou Letra\]\[Naipe\], \[Número ou Letra\]\[Naipe\] .....
-  Cada mão aceita até cinco cartas conhecidas e, no mínimo, duas desconhecidas. 
+  >\[Número ou Letra\]\[Naipe\], \[Número ou Letra\]\[Naipe\]...        
+  >\[Número ou Letra\]\[Naipe\], \[Número ou Letra\]\[Naipe\]...
+  Cada mão aceita até cinco cartas conhecidas e, no mínimo, duas desconhecidas. Os números das cartas são 2-9; as letras, J, Q e K. Os naipes podem ser __h__ (copas), __s__ (espadas), __d__ (ouros) ou __c__ (paus). Há exemplos disponíveis na pasta _provided-tests_
   
 * __NumTrials__ (opcional): Um número inteiro que definirá quantas simulações serão rodadas. O número padrão de simulações é 10.000
