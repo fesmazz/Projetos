@@ -12,6 +12,6 @@ Compile o programa a partir do makefile fornecido (por padrão, será buscado o 
   >\[Número ou Letra\]\[Naipe\], \[Número ou Letra\]\[Naipe\]...        
   >\[Número ou Letra\]\[Naipe\], \[Número ou Letra\]\[Naipe\]...             
   
- Cada mão aceita até cinco cartas conhecidas e, no mínimo, duas desconhecidas. Os números das cartas são 2-9; as letras, J, Q e K. Os naipes podem ser __h__ (copas), __s__ (espadas), __d__ (ouros) ou __c__ (paus). Há exemplos disponíveis na pasta _provided-tests_
+ Cada mão aceita até sete cartas conhecidas ou desconhecidas. Os números das cartas são 2-9; as letras, J, Q e K. Os naipes podem ser __h__ (copas), __s__ (espadas), __d__ (ouros) ou __c__ (paus). Há exemplos disponíveis na pasta _provided-tests_. Para cartas desconhecidas, pode ser usada a notação "?1", "?2", e assim por diante. Note que a carta "?1" indicada na mão 1 será a mesma que a carta "?1" indicada na mão dois. 
   
 * __NumTrials__ (opcional): Um número inteiro que definirá quantas simulações serão rodadas. O número padrão de simulações é 10.000
