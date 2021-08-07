@@ -1,38 +1,29 @@
-## Welcome to GitHub Pages
+# Projetos públicos de programação de Fernando Sanjar Mazzilli
 
-You can use the [editor on GitHub](https://github.com/fesmazz/Projetos/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Olá! Aqui estão reunidos alguns projetos que desenvolvi para praticar minhas habilidades de programação. Por enquanto, apenas dois estão disponíveis, mas pretendo atualizar o repositório regularmente. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Índice
 
-[Teste](fauna.html)
-### Markdown
+1. [Análise de dados](#data)     
+    1. [Analisando dados de fauna em risco de extinção nas principais Unidades de Preservação Brasileiras](#fauna)
+2. [Fundamentos da Programação](#fundamentos)
+    1. [Calculando a probabilidade de vitória entre duas mãos no Texas Hold'em Poker](#poker)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<a name="data"></a>
+## 1. Análise de Dados 
 
-```markdown
-Syntax highlighted code block
+<a name="fauna"></a>
+### 1.1 Analisando dados de fauna em risco de extinção nas principais Unidades de Preservação Brasileiras
+**Palavras chave**: Data Science, Jupyter Notebooks, Matplotlib, Python, Pandas, Relational Databases, SQL, SQLite     
+<br>
+Veja [aqui](fauna.html) a versão do Jupyter Notebook em HTML!      <br>
+Projeto de Ciência de Dados desenvolvido como trabalho final de um curso de especialização na plataforma Coursera. A partir de dados obtidos no Portal Brasiliero de Dados Abertos, montei um Jupyter Notebook em Python que automatiza a extração de dados de uma planilha Excel e os armazena em uma base de dados relacional SQLite. Cruzo informações pertinentes, montando tabelas como _DataFrames_ do Pandas, e as transformo em gráficos utilizando as bibliotecas _matplotlib_ e _seaborn_
 
-# Header 1
-## Header 2
-### Header 3
+<a name="fundamentos"></a>
+## 2. Fundamentos da Programação
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fesmazz/Projetos/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<a name="poker"></a>
+### 2.1 Calculando a probabilidade de vitória entre duas mãos no Texas Hold'em Poker        
+**Palavras chave**: Arrays, C, Data Structures, Pointers, Memory Management     
+<br>
+Projeto final do curso de especialização "Introductory C Programming" oferecido pela Duke University na plataforma Coursera. Trata-se de um programa desenvolvido em C que, dadas duas mãos (com cartas conhecidas, desconhecidas, ou um misto), calcula a probabilidade de vitória de cada uma, considerando as regras do _Texas Hold'em Poker_ . O programa lê um arquivo .txt que contém informações sobre as mãos a serem analisadas, roda um número de simulações especificado pelo usuário (padrão = 10.000) e retorna o número de vitórias, derrotas e empates de cada uma. 
