@@ -1,5 +1,5 @@
 # Projetos
-Aqui estão reunidos meus projetos pessoais! Por enquanto, apenas dois estão disponíveis, mas pretendo atualizar o repositório regularmente.
+Aqui estão reunidos meus projetos pessoais! 
 ## Índice
 
 1. [Análise de dados](#data)     
